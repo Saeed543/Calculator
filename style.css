@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
+
+.calculatorparent {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculatorbody {
+  height: 120%;
+  padding: 1.2rem;
+  box-shadow: 10px 10px 45px -18px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 45px -18px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 45px -18px rgba(0, 0, 0, 0.75);
+
+}
+
+#display {
+  border: 2px inset black;
+  border-radius: 4px;
+  padding: 5px;
+  height: 1.3rem;
+  margin-bottom: 5px;
+  box-shadow: 37px 42px 83px -39px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 37px 42px 83px -39px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 37px 42px 83px -39px rgba(0, 0, 0, 0.75);
+}
+
+.calculator {
+  position: relative;
+  box-shadow: black;
+}
+
+.calculator #zero {
+  position: absolute;
+  top: 295px;
+  left: 0;
+}
+
+.calculator #dot {
+  position: absolute;
+  top: 295px;
+  left: 47px;
+  width: 39px;
+}
+
+.calculator #equals {
+  position: absolute;
+  top: 295px;
+  left: 95px;
+  width: 72px;
+  background-color: green;
+  color: white;
+}
+
+.calculator #one {
+  position: absolute;
+  top: 244px;
+  left: 0;
+}
+
+.calculator #two {
+  position: absolute;
+  top: 244px;
+  left: 47px;
+}
+
+.calculator #three {
+  position: absolute;
+  top: 244px;
+  left: 95px;
+  width: 72px;
+}
+
+/* .calculator {
+  display: flex;
+  justify-content: center;
+} */
+
+button {
+  padding: 15px;
+  margin: 2px;
+  border: 1px solid black;
+  border-radius: 4px;
+  background: white;
+  box-shadow: 37px 42px 83px -39px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 37px 42px 83px -39px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 37px 42px 83px -39px rgba(0, 0, 0, 0.75);
+
+}
+
+#M- {
+  width: 85px;
+}
+
+#x {
+  width: 72px;
+}
+
+#minus {
+  width: 72px;
+}
+
+#DEL {
+  width: 68px;
+}
+
+#plus {
+  height: 99px;
+  position: relative;
+  left: 172px;
+  color: white;
+  background-color: red;
+}
+
+.footer {
+  background-color: #e3dada;
+  text-align: center;
+  font-family: 'Gabarito', sans-serif;
+}
