@@ -1,4 +1,4 @@
-# Calculator in Js (For Beginners)
+# Calculator in Js
 
 A Fully functional calculator app built in js with vite for tooling
 
